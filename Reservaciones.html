@@ -1,0 +1,47 @@
+<html>
+<head>
+  <title>Menú de reservación de pasteles</title>
+  <style>
+    /* Aquí puedes añadir tus propios estilos CSS */
+  </style>
+</head>
+<body>
+  <h1>Menú de reservación de pasteles</h1>
+  <p>Bienvenido a nuestra pastelería online. Aquí puedes elegir y reservar tu pastel favorito.</p>
+  <img src="imagen/18afeba4dfc2ba0c3416182a5b3b3fd1.jpg" alt="" width="300" height="200">
+  <form action="^5^" method="POST">
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name" required><br>
+    <label for="address">Dirección:</label>
+    <input type="text" id="address" name="address" required><br>
+    <label for="date">Fecha de entrega:</label>
+    <input type="date" id="date" name="date" required><br>
+    <label for="flavor">Sabor:</label>
+    <select id="flavor" name="flavor">
+      <option value="chocolate">Chocolate</option>
+      <option value="vanilla">Vainilla</option>
+      <option value="strawberry">Fresa</option>
+      <option value="carrot">Zanahoria</option>
+      <option value="cheese">Queso</option>
+    </select><br>
+    <label for="size">Tamaño:</label>
+    <select id="size" name="size">
+      <option value="small">Pequeño</option>
+      <option value="medium">Mediano</option>
+      <option value="large">Grande</option>
+    </select><br>
+    <label for="design">Diseño:</label>
+    <select id="design" name="design">
+      <option value="round">Redondo</option>
+      <option value="square">Cuadrado</option>
+      <option value="heart">Corazón</option>
+      <option value="star">Estrella</option>
+      <option value="custom">Personalizado</option>
+    </select><br>
+    <input type="checkbox" id="candle" name="candle">
+    <label for="candle">¿Quieres una vela?</label><br>
+    <input type="submit" value="Reservar">
+  </form>
+</body>
+</html>
+
